@@ -23,9 +23,9 @@ const options = {
       environment: 'happy-dom',
     },
   },
-  strict: {
+  'strict-tokens': {
     test: {
-      include: ['**/__tests__/scenarios/strict.{test,spec}.{j,t}s?(x)'],
+      include: ['**/__tests__/scenarios/strict-tokens.{test,spec}.{j,t}s?(x)'],
     },
   },
   //
